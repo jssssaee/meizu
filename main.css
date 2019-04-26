@@ -1,0 +1,277 @@
+body{
+	font-size: 12px;
+}
+.header{
+	width: 6.06rem;height: 0.53rem;padding: 9.6px 6.4px 9.6px 10.653px;background-color:#FFFFFF;position: relative;
+}
+.meizu{
+	width: 1.18rem;height: 0.53rem;margin: 0 2.44rem;background-color: #FFFFFF;
+}
+.meizu img{
+		width: 1.18rem;height: 0.53rem;
+}
+   .header div:nth-child(2){
+   	width: 12.438px;height: 12.438px;position: absolute;top: 0.358rem;right: 5.96rem;left: 0.192rem;
+   }
+  .header div:nth-child(3){
+   	width: 15.4px;height: 15.4px;position: absolute;top: 0.32rem;right:0.812rem;left: 5.28rem;
+   }
+.index-nav{
+	width: 5.974rem;height: 0.5975rem;padding: 0 10.667px;background-color:#FFFFFF;
+}
+.nav-bar{
+	width: 5.974rem;height: 0.47rem;padding-bottom: 6.4px;background-color: #FFFFFF;line-height: 0.47rem;
+}
+.nav-bar ul{
+	display: flex;justify-content: space-between;
+}
+.nav-bar li:nth-child(1){border-bottom: 1.1px solid #0bbbef;    	
+}
+.nav-bar  a{color: #333;}
+.box{
+	width: 6.4rem;height:3.34rem ;overflow: hidden;
+}
+ .box ul{
+animation:mybox 20s linear infinite;width: 44.8rem;
+}
+ .box li {
+	width:6.4rem;height:3.34rem ;float: left;list-style: none;
+}
+
+li img{
+	width:6.4rem;height:3.34rem ;float: left;list-style: none;
+}
+	@keyframes mybox{
+				0%,10%{
+					margin-left: 0px;
+				}
+				
+				15%,25%{
+					margin-left: -6.4rem;
+				}
+				30%,40%{
+					margin-left: -12.8rem;
+		}
+		45%,55%{
+					margin-left: -19.2rem;
+				}
+		60%,70%{
+					margin-left: -25.6rem;
+				}
+		75%,85%{
+					margin-left: -32rem;
+				}
+		90%,100%{
+					margin-left: -38.4rem;
+				}
+		
+			}
+			
+			.hot-tip-bar{width: 5.45rem;height: 0.32rem;padding: 7.68px 0.474rem;background:#F7F7F7;color:#999999; ;
+				
+			}
+.hot-tip-bar img{
+	width: 0.225rem;height: 0.225rem;
+}
+.hot-site{
+	width: 6.4rem;height: 1.4075rem;background-color: #FFFFFF;
+}
+.hot-site ul{
+	width: 6.4rem;height: 1.09rem;padding-bottom: 3.2px;padding-top: 0.256rem;background-color: #FFFFFF;
+	display: flex;justify-content: space-around;}
+.hot-site li{
+	width: 1.28rem;height: 1.088rem;margin: 0 3.2px 0;background-color: #FFFFFF;text-align: center;
+	}
+
+.hot-site li a{width:1.2rem;height: 1.153rem;background-color: #FFFFFF;
+	}
+	.hot-site li img{
+		width: 0.533rem;height: 0.533rem;margin: 0 0.373rem 0;background-color:#FFFFFF;
+	}
+	.hot-site li span {margin-top: 7px;display: inline-block;height: 14px;color: #000000;
+	}	
+	.tiao{
+		width: 6.4rem;height: 8.889px;background-color: #F4F4F4;
+	}
+.index-banner{
+	width:6.4rem;height: 4.416rem;background-color: red;display: flex;
+}
+.sidebar{
+	width: 3.2rem;height: 4.416rem;
+}
+.sidebar img{
+	width: 3.2rem;height: 4.416rem;
+}
+.rightbar{3.2rem;height: 4.416rem;
+}
+.rightbar div{width: 3.2rem;height: 2.208rem;	
+}
+.rightbar div img{width: 3.2rem;height: 2.208rem;	
+}
+.index-phone-list{
+	width: 6.4rem;height: 23.383rem;background-color: #F4F4F4;
+}
+.list-title{
+	width: 6.4rem;height: 0.4rem;padding: 0.384rem 0 0.448rem;text-align: center;font-size: 15px;position: relative;
+}
+
+.list-title::after{
+	width: 0.384rem;height: 2.234px;position: absolute;top: 0.932rem;left: 3.0rem;right: 2.816rem;bottom:0;background-color:#0bbbef;content: "";
+}
+.phone-ad-header{
+	width: 6.4rem;height: 2.933rem;
+}
+.phone-ad-header img{
+	width: 6.4rem;heiht: 2.933rem;
+}
+.phone-list{width: 6.4rem;height: 19.026rem;background-color: #F4F4F4;margin: 4.8px 0;}
+.phone-content{
+	width: 3.1488rem;height: 3.969rem;padding: 0.403rem 0 0.314rem;margin-bottom: 3.556px;text-align: center;background-color: white;
+}
+.phone-content img{
+	width: 2.676rem;height: 2.676rem;
+}
+.info p:nth-child(1){
+	font-weight: 700;color: #333;
+}
+.slogan-sale{width: 2.957rem;height: 16px;margin: 5.6px 4.8px 8px;	
+}
+.slogan-sale span{
+	color: #c00;border: 1px solid #c00;height:0.28rem ;width: 2.757rem;overflow: hidden;  display: inline-block;text-overflow: ellipsis; white-space: nowrap;padding: 0 4px;
+}
+.slogan-sale  em{
+	width: 0.48rem;height: 14px;padding: 0 4px;margin: 0 4px 0 -4px;background-color: #c00;color:white ;font-weight: 400 ;font-style: normal;float: left;}
+	
+.price{
+     color: #c00;}
+.phone-list{
+display: flex;flex-wrap: wrap;justify-content: space-between;
+}
+.index-audio-list{
+	width: 6.4rem;height: 26.16rem;background-color: #F4F4F4;
+}
+.list-title{
+	width: 6.4rem;height: 0.4rem;padding: 0.384rem 0 0.448rem;text-align: center;font-size: 15px;position: relative;
+}
+
+.list-title::after{
+	width: 0.384rem;height: 2.234px;position: absolute;top: 0.932rem;left: 3.0rem;right: 2.816rem;bottom:0;background-color:#FF6363;content: "";
+}
+.audio-list-ad{
+	width: 6.4rem;height: 5.6175rem;background-color: red;position: relative;
+}
+.left1{
+	width: 3.2rem;height: 2.844rem;position: absolute;right: 3.2rem;
+}
+.left1 img{
+	width: 3.2rem;height: 2.844rem;
+}
+.right1{
+	width: 2.702rem;height: 2.311rem;padding: 12.444px;position: absolute;left: 3.2rem;background: #F55C5C;
+}
+.right1 h4{
+	width: 2.133rem;height: 0.76rem;color: white;font-size: 15px;
+}
+.right1 p{
+	width: 2.70rem;height: 14px;padding: 3.84px 0;color: rgba(255,255,255,.7);position: relative;
+}
+.right1 p::after{
+	width: 0.32rem;height: 1.594px;position: absolute;top: 0.5rem;right: 2.37rem;bottom:0;background-color:white;content: "";
+}
+.right1{
+	position: absolute;
+}
+.right1 .price{
+	width: 0.8rem;height: 0.38rem;position: absolute;color: white;font-size: 14px;right:2.16rem ;top: 2.046rem;left: 12.444px;bottom: 0;
+}
+
+.audio-list-ad .left2{
+	width: 2.702rem;height: 2.311rem;padding: 12.444px;position: absolute;right: 3.2rem;background: yellow;top: 2.844rem;background: #7063C9;
+}
+.left2 h4{
+	width: 2.133rem;height: 0.76rem;color: white;font-size: 15px;
+}
+.left2 p{
+	width: 2.70rem;height: 14px;padding: 3.84px 0;color: rgba(255,255,255,.7);position: relative;
+}
+.left2 p::after{
+	width: 0.32rem;height: 1.594px;position: absolute;top: 0.5rem;right: 2.37rem;bottom:0;background-color:white;content: "";
+}
+.left2{
+	position: absolute;
+}
+.left2 .price{
+	width: 0.8rem;height: 0.38rem;position: absolute;color: white;font-size: 14px;right:2.16rem ;top: 2.046rem;left: 12.444px;bottom: 0;
+}
+.audio-list-ad .right2{
+	width: 3.2rem;height: 2.844rem;position: absolute;left: 3.2rem;top: 2.8rem;
+}
+.right2 img{
+	width: 3.2rem;height: 2.844rem;
+}
+
+.phone-content2{
+	width: 3.1488rem;height: 3.969rem;padding: 0.403rem 0 0.314rem;margin-bottom: 3.556px;text-align: center;background-color: white;
+}
+.phone-content2 img{
+	width: 2.676rem;height: 2.676rem;
+}
+.info p:nth-child(1){
+	font-weight: 700;color: #333;
+}
+.slogan-sale{width: 2.957rem;height: 16px;margin: 5.6px 4.8px 8px;	
+}
+ .phone-content2 .slogan-sale span{
+	color: #999999;height:0.32rem ;width: 2.16rem;overflow: hidden;  display: inline-block;text-overflow: ellipsis; white-space: nowrap;padding: 0 4px;border:1px solid transparent;
+}
+
+.price{
+     color: #c00;}
+     .price .yuanjia{
+     	color: #999999;text-decoration: line-through;
+     }
+.phone-list{
+display: flex;flex-wrap: wrap;justify-content: space-between;
+}
+/*智能配件的list*/
+.index-audio-list2{
+	width: 6.4rem;height: 31.024rem;background-color: #F4F4F4;
+}
+
+.index-audio-list2 .right1{
+	width: 2.702rem;height: 2.311rem;padding: 12.444px;position: absolute;left: 3.2rem;background:#55C3C3;
+}
+
+.index-audio-list2 .left2{
+	width: 2.702rem;height: 2.311rem;padding: 12.444px;position: absolute;right: 3.2rem;top: 2.844rem;background: #FFAE45;}
+
+/*生活周边的list*/
+.index-audio-list3{
+	width: 6.4rem;height:26.3rem;background-color: #F4F4F4;
+}
+
+.index-audio-list3 .right1{
+	width: 2.702rem;height: 2.311rem;padding: 12.444px;position: absolute;left: 3.2rem;background:#F55C5C;
+}
+
+.index-audio-list3 .left2{
+	width: 2.702rem;height: 2.311rem;padding: 12.444px;position: absolute;right: 3.2rem;top: 2.844rem;background: #7063C9;}
+
+
+/*flyme*/
+.flyme{
+	width:6.4rem ;height: 0.36rem;padding: 0.64rem 0 0.448rem; background-color: #F4F4F4;text-align: center;font-size: 15px;font-weight: 700;/*overflow: hidden;white-space: nowrap;flex-wrap: nowrap;*/
+}
+.phone-list-fly{
+	width: 6.4rem;height: 10.94rem;padding: 4.8px 0;
+	background-color:#F4F4F4;display: flex;justify-content: space-between;
+  flex-wrap: wrap;                 }
+.phone-list-fly >.flyme-content{
+	width: 3.1488rem;height: 2.664rem;margin-bottom: 3.556px;
+}
+.phone-list-fly .flyme-content img{
+	width: 3.1488rem;height: 2rem;
+}
+.phone-list-fly .flyme-content .item-title{
+	width: 3.1488rem;height: 0.32rem;padding: 7.111px 0;text-align: center;
+  overflow: hidden;white-space: nowrap;flex-wrap: nowrap;      text-overflow: ellipsis;    }       
